@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const routes = require('./routes/routes');
 const cors = require('cors');
 const app = express();
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5000;
 
 // Explicitly configure CORS to allow all origins
 app.use(cors({
